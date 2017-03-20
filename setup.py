@@ -10,4 +10,8 @@ setup(
     download_url='https://github.com/vadimg/goldtest/tarball/0.1',
     keywords=['goldtest', 'gold', 'test', 'testing'],
     classifiers=[],
+    install_requires=[
+        'sqlalchemy>=0.9.8',
+        'pytz',
+    ]
 )
